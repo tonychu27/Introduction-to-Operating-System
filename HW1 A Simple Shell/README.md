@@ -11,10 +11,11 @@ Control flow of your simple shell:
 6. Go to the first step
 
 ## Important System Calls
+```c
 fork()
 exec() family
 wait() family
-
+```
 ## Waiting on child processes
 If a command is ended with “&”, then the shell will not wait on a child process \
 For example:
