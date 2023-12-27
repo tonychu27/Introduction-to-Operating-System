@@ -54,7 +54,7 @@ About matrices A, B, and C \
 • A and B can be the same or separate matrices \
 • C `must` be in the shared memory 
 
-Print the elapsed time and the matrix checksum (Add all the elemets in the matrix C) \ 
+Print the elapsed time and the matrix checksum (Add all the elemets in the matrix C) 
 • 16 cases, degree of process parallelism increases from 1 to 16 \
 • The final checksum must be correct \
 • Matrix elements and the checksum are all `32-bit unsigned integers` \
