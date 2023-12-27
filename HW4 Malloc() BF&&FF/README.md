@@ -81,7 +81,7 @@ int munmap(void *addr, size_t length);
 ```
 
 ## Input and Output
-Input filename: test0.txt, test1.txt or test2.txt
+Input filename: test0.txt, test1.txt or test2.txt (Default is test0.txt, you can change it at line 22 in [main.c](/main.c)) 
 
 Input line format: [A or D] [ id ] [ size ]\n
 - A: Allocate, D: Deallocate
