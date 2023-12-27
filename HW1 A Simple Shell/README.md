@@ -19,10 +19,10 @@ wait() family
 ## Waiting on child processes
 If a command is ended with “&”, then the shell will not wait on a child process \
 For example:
-- sleep 10s \
-- The prompt re-appears after 10 seconds \
-- sleep 10s & \
-- The prompt re-appears immediately \
+- sleep 10s 
+- The prompt re-appears after 10 seconds 
+- sleep 10s & 
+- The prompt re-appears immediately 
 
 ## Test Cases
 Your shell must correctly handle test cases of the following format
