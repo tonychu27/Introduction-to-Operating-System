@@ -93,9 +93,9 @@ Output: size of the largest free space
 ## Note
 You may notice that main.c avoids using `fopen()`, `scanf()`, and `printf()` because these APIs call `malloc()` internally and will affect your result
 ```c
-Fopen() -> open()
-Fread() -> read()
-Fclose() -> close()
+fopen() -> open()
+fread() -> read()
+fclose() -> close()
 ```
 
 To print out a string 
