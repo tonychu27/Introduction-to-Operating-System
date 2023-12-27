@@ -10,19 +10,19 @@ The Concept of a Thread Pool \
 ## Semaphore
 Synchronization tool that does not require busy waiting \
 Semaphore S – integer variable \
-• `Initial` value of S cannot be negative
-• Can only be accessed via these two indivisible (atomic) operations: `wait()` and `signal()`
+• `Initial` value of S cannot be negative \
+• Can only be accessed via these two indivisible (atomic) operations: `wait()` and `signal()` \
 • An internal (invisible) waiting queue to manage blocked threads/processes
 
 ## Reference Design
-Initially, the dispatcher thread inserts eight sort jobs for the eight bottom-level arrays and signals worker threads \
+Initially, the dispatcher thread inserts eight sort jobs for the eight bottom-level arrays and signals worker threads 
 
-When a worker thread is signaled, it gets a job from the job list \
+When a worker thread is signaled, it gets a job from the job list 
 
-When a worker thread completes a job, it notifies the dispatcher \
+When a worker thread completes a job, it notifies the dispatcher 
 
 When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays have been sorted. If so, it inserts a new job of merging the 
-two sub-arrays to the job list and signal a worker thread \
+two sub-arrays to the job list and signal a worker thread 
 
 ![Alt text](res/reference.png)
 
@@ -44,9 +44,9 @@ All elements separated by space
 
 Output file format “output_?.txt”:
 < sorted array elements separated by space > \
-On the screen \
+On the screen 
 
-![Alt text](res/result.png) \
+![Alt text](res/result.png) 
 
 In the output files: sorted integers
 
@@ -72,9 +72,10 @@ Numbers must be sorted in the ascending order \
 Use bubble sort on the bottom-level arrays \
 All the 8 output files must be identical \
 Avoid polling in any place of your program \
-Jobs must be dynamically created. Do not pregenerate all jobs \
+Jobs must be dynamically created. Do not pregenerate all jobs 
 
-You get 0 mark if you use quicksort() in any place \
+You get 0 mark if you use quicksort() in any place 
+
 Execution time decreases as n increases, performance improve. And saturates when n is large
 > Again! Why? Try googling “Amdahl's Law”
 
