@@ -11,9 +11,9 @@ Provides two files
 - main.c: A program tha calls malloc() and free() using the operations in test.txt
 
 You write two files
-- bf.c: your malloc() and free() using BEST FIT
+- bf.c: your malloc() and free() using **BEST FIT**
 
-- ff.c: your malloc() and free() using FIRST FIT
+- ff.c: your malloc() and free() using **FIRST FIT**
 
 Overview \
 ![Alt text](res/image.png)
@@ -46,9 +46,11 @@ Layout \
 
 ## Memory Pool Management
 `void *malloc(size_t size)`
+
 ![Alt text](res/malloc.png)
 
 `void free(void *ptr)`
+
 ![Alt text](res/free.png)
 
 ## Implementation Details
