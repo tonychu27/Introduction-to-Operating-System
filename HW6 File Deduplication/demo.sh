@@ -40,7 +40,6 @@ real_time=$(echo "$elapsed_time" | grep "real" | awk '{print $2}')
 # Efficiency validate
 # threshold=4.5
 if (( $(echo "$real_time < 4.5 " | bc -l) )); then
-    echo $real_time
     echo -e "Time\t:\t[0;32mEfficiency[m"
 else
     echo -e "Time\t:\t[0;31mSlow[m : ${real_time}"
