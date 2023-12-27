@@ -49,7 +49,7 @@ Test your program on a multicore machine
 Create worker processes using fork()
 - Wait until all worker processes have exit()’ed 
 
-About matrices A, B, and C \
+About matrices A, B, and C 
 - A and B can be inside or outside of the shared memory 
 - A and B can be the same or separate matrices 
 - C `must` be in the shared memory 
