@@ -25,7 +25,7 @@ int shmget(key_t key, size_t size, int shmflag); /*** Areate a block of shared m
 void *shmat(int shmid, const void *shmaddr, int shmflg); /*** Attach shared memory to the current process’s address space ***/
 int shmdt(const void *shmaddr); /*** Detach shared memory from the current process’s address space ***/
 int shmctl(int shmid, int cmd, struct shmid_ds *buf); /*** Control shared memory ***/
-gettimeofday(struct timeval *restrict tv, struct timezone *_Nullable restrict tz); /*** Calculate the elapsed time ***/
+int gettimeofday(struct timeval *restrict tv, struct timezone *_Nullable restrict tz); /*** Calculate the elapsed time ***/
 ```
 
 ## Matrix Initial Values
