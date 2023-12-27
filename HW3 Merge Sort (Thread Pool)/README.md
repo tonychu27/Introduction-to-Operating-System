@@ -16,9 +16,14 @@ Semaphore S – integer variable \
 
 ## Reference Design
 Initially, the dispatcher thread inserts eight sort jobs for the eight bottom-level arrays and signals worker threads \
+
 When a worker thread is signaled, it gets a job from the job list \
+
 When a worker thread completes a job, it notifies the dispatcher \
-When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays have been sorted. If so, it inserts a new job of merging the two sub-arrays to the job list and signal a worker thread \
+
+When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays have been sorted. If so, it inserts a new job of merging the 
+two sub-arrays to the job list and signal a worker thread \
+
 ![Alt text](res/reference.png)
 
 ## Procedure
@@ -39,8 +44,10 @@ All elements separated by space
 
 Output file format “output_?.txt”:
 < sorted array elements separated by space > \
-On the screen
-![Alt text](res/result.png)
+On the screen \
+
+![Alt text](res/result.png) \
+
 In the output files: sorted integers
 
 ## APIs
