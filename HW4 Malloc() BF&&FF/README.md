@@ -87,7 +87,7 @@ Input line format: [A or D] [ id ] [ size ]\n
 - size: bytes
 
 Output: size of the largest free space
-- Format: Max Free Chunk Size = $size in bytes$\n
+- Format: Max Free Chunk Size = $size in bytes\n
 - Excluding the header
 
 ## Note
