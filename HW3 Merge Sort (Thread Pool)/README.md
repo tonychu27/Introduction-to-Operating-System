@@ -39,8 +39,8 @@ two sub-arrays to the job list and signal a worker thread
 Format of “input.txt”: \
 < of elements of array > < space >\n \
 All elements separated by space
-> Largest input: 1,000,000 integers \
-> Generate your own file for testing
+    Largest input: 1,000,000 integers \
+    Generate your own file for testing
 
 Output file format “output_?.txt”:
 < sorted array elements separated by space > \
