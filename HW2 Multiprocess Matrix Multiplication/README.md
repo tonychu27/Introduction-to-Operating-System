@@ -47,18 +47,18 @@ Your program using any matrix dimension between 100x100 and 800x800
 Test your program on a multicore machine 
 
 Create worker processes using fork()
-• Wait until all worker processes have exit()’ed 
+- Wait until all worker processes have exit()’ed 
 
 About matrices A, B, and C \
-• A and B can be inside or outside of the shared memory \
-• A and B can be the same or separate matrices \
-• C `must` be in the shared memory 
+- A and B can be inside or outside of the shared memory 
+- A and B can be the same or separate matrices 
+- C `must` be in the shared memory 
 
 Print the elapsed time and the matrix checksum (Add all the elemets in the matrix C) 
-• 16 cases, degree of process parallelism increases from 1 to 16 \
-• The final checksum must be correct \
-• Matrix elements and the checksum are all `32-bit unsigned integers` \
-• Don’t worry, just let the checksum integer overflow 
+- 16 cases, degree of process parallelism increases from 1 to 16 
+- The final checksum must be correct 
+- Matrix elements and the checksum are all `32-bit unsigned integers` 
+- Don’t worry, just let the checksum integer overflow 
 
 
 ## Output
