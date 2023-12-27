@@ -21,11 +21,20 @@ No locking/synchronization is required since multiplication on sub-metrices are 
 #include <sys/time.h>
 ```
 ```c
-int shmget(key_t key, size_t size, int shmflag); /*** Areate a block of shared memory ***/
-void *shmat(int shmid, const void *shmaddr, int shmflg); /*** Attach shared memory to the current process’s address space ***/
-int shmdt(const void *shmaddr); /*** Detach shared memory from the current process’s address space ***/
-int shmctl(int shmid, int cmd, struct shmid_ds *buf); /*** Control shared memory ***/
-int gettimeofday(struct timeval *restrict tv, struct timezone *_Nullable restrict tz); /*** Calculate the elapsed time ***/
+/*** Areate a block of shared memory ***/
+int shmget(key_t key, size_t size, int shmflag);
+
+/*** Attach shared memory to the current process’s address space ***/
+void *shmat(int shmid, const void *shmaddr, int shmflg);
+
+/*** Detach shared memory from the current process’s address space ***/
+int shmdt(const void *shmaddr);
+
+/*** Control shared memory ***/
+int shmctl(int shmid, int cmd, struct shmid_ds *buf);
+
+/*** Calculate the elapsed time ***/
+int gettimeofday(struct timeval *restrict tv, struct timezone *_Nullable restrict tz); 
 ```
 
 ## Matrix Initial Values
