@@ -1,8 +1,8 @@
 # HW2- Multi-Process Matrix Multiplication using Shared Memory
 
 ## Overview
-Matrix multiplication using multiple processes \
-Basic parallel processing \
+Matrix multiplication using multiple processes 
+Basic parallel processing 
 Will be faster on multicore machines \
 Input: the dimension of two square matrices A & B 
 > E.g., 100 -> A, B, and C are 100x100 square matrices 
