@@ -13,7 +13,7 @@ Trace File Format
 
 ![Alt text](res/whois.png)
 
-## LFU Simulator Structuew
+## Simulator Structure
 Least Frequently Used
 
 ![Alt text](res/LFUexample.png)
