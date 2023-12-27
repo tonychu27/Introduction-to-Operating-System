@@ -32,15 +32,15 @@ two sub-arrays to the job list and signal a worker thread
 3. Do the sorting with a thread pool of n threads
 4. Print the execution time
 5. Write the sorted array to a file
-> Filename: output_n.txt (e.g., output_3.txt if n=3)
+- Filename: output_n.txt (e.g., output_3.txt if n=3)
 6. n++; if n<=8 then goto 3
 
 ## Input and Output Format
 Format of “input.txt”: \
 < of elements of array > < space >\n \
 All elements separated by space
-    Largest input: 1,000,000 integers \
-    Generate your own file for testing
+- Largest input: 1,000,000 integers
+- Generate your own file for testing
 
 Output file format “output_?.txt”:
 < sorted array elements separated by space > \
@@ -77,7 +77,7 @@ Jobs must be dynamically created. Do not pregenerate all jobs
 You get 0 mark if you use quicksort() in any place 
 
 Execution time decreases as n increases, performance improve. And saturates when n is large
-> Again! Why? Try googling “Amdahl's Law”
+- Again! Why? Try googling “Amdahl's Law”
 
 ## Test your program
 ```bash
