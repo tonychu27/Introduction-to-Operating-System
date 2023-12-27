@@ -27,8 +27,8 @@ fi
 
 
 # Extract 
-tar -xf $TESTCASE --directory=$EXTRACT_DIR --strip-components=1
-tar -xf $TESTCASE --directory=$ANSWER_DIR --strip-components=1
+tar -xf $TESTCASE --directory=$EXTRACT_DIR 
+tar -xf $TESTCASE --directory=$ANSWER_DIR 
 
 
 # Execute & time
