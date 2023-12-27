@@ -3,25 +3,26 @@
 ## Overview of this assignment
 
 Control flow of your simple shell:
-> Display the prompt sign “>” and take a string from user
-> Parse the string into a program name and arguments
-> Fork a child process
-> Have the child process execute the program
-> Wait until the child terminates
-> Go to the first step
+1. Display the prompt sign “>” and take a string from user
+2. Parse the string into a program name and arguments
+3. Fork a child process
+4. Have the child process execute the program
+5. Wait until the child terminates
+6. Go to the first step
 
 ## Important System Calls
+```c
 fork()
 exec() family
 wait() family
-
+```
 ## Waiting on child processes
 If a command is ended with “&”, then the shell will not wait on a child process \
 For example:
-> sleep 10s
-> The prompt re-appears after 10 seconds
-> sleep 10s &
-> The prompt re-appears immediately
+> sleep 10s \
+> The prompt re-appears after 10 seconds \
+> sleep 10s & \
+> The prompt re-appears immediately \
 
 ## Test Cases
 Your shell must correctly handle test cases of the following format
@@ -56,4 +57,4 @@ a | b > c
 ```
 
 ## Note
-Don't use system() and popen() to do pipe or io-redirection
+Don't use system() and popen() to do pipe or I/O-redirection
