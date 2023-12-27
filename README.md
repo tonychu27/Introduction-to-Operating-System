@@ -11,3 +11,12 @@
 | HW4      |  Malloc() BF/FF                     |
 | HW5      |  Cache Simulation: LRU LFU          |
 | HW6      |  File Deduplication                 |
+
+## Grading Policy
+Programming Assignment: 36% (6% each) 
+
+Midterm: 25%
+
+Final: 35%
+
+Quizzes and Attendance: 4%
