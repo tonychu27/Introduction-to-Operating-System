@@ -6,9 +6,12 @@
 Trace File Format
 - Page number of referenced pages (unsigned integer)
 - Zipfian Distribution
-- ![Alt text](res/zipf.png)
+
+![Alt text](res/zipf.png)
+
 - whois www.nctu.edu.tw
-- ![Alt text](res/whois.png)
+
+![Alt text](res/whois.png)
 
 ## LFU Simulator Structuew
 Least Frequently Used
