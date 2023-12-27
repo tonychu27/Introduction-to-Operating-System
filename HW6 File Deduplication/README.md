@@ -34,7 +34,7 @@ Unique files having the same size/name will be used for testing
 ### Hints
 May need SHA1 APIs
 
-Install necessary files with command `sudo apt install libssl-dev`
+Install necessary files with command `sudo apt install libssl-dev bc`
 
 ```c
 #include <openssl/sha.h>
@@ -69,3 +69,5 @@ make
 - `./demo.sh main`
 
 This script will check your efficiency, file hard link counts and compare contents of all files
+
+![Alt text](image-1.png)
