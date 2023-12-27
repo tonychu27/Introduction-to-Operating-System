@@ -9,7 +9,7 @@ Input: the dimension of two square matrices A & B
 Output: an execution time and a checksum
 
 ## Shared Memory
-Matrices A, B, and C are stored in a shared memory. \
+Matrices A, B, and C are stored in a shared memory. 
 No locking/synchronization is required since multiplication on sub-metrices are mutually independent
 
 ## Header Files
