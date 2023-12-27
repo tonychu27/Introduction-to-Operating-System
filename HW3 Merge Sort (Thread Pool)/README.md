@@ -1,10 +1,10 @@
 # HW3 - Parallel Merge Sort with Threads
 
 ## Overview
-Jobs for Parallel Merge Sort
+Jobs for Parallel Merge Sort \
 ![Alt text](res/mergeSort.png)
 
-The Concept of a Thread Pool
+The Concept of a Thread Pool \
 ![Alt text](res/threadPool.png)
 
 ## Semaphore
@@ -18,7 +18,7 @@ Semaphore S – integer variable \
 Initially, the dispatcher thread inserts eight sort jobs for the eight bottom-level arrays and signals worker threads \
 When a worker thread is signaled, it gets a job from the job list \
 When a worker thread completes a job, it notifies the dispatcher \
-When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays have been sorted. If so, it inserts a new job of merging the two sub-arrays to the job list and signal a worker thread
+When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays have been sorted. If so, it inserts a new job of merging the two sub-arrays to the job list and signal a worker thread \
 ![Alt text](res/reference.png)
 
 ## Procedure
@@ -33,9 +33,10 @@ When being notified, the dispatcher checks if any two pairing (buddy) sub-arrays
 ## Input and Output Format
 Format of “input.txt”: \
 < of elements of array > < space >\n \
-all elements separated by space
-> Largest input: 1,000,000 integers
+All elements separated by space
+> Largest input: 1,000,000 integers \
 > Generate your own file for testing
+
 Output file format “output_?.txt”:
 < sorted array elements separated by space > \
 On the screen
