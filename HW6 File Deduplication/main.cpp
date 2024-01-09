@@ -86,7 +86,7 @@ void deduplicate(const string& directory) {
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        cerr << "No directoay given..\n";
+        cerr << "No directory given..\n";
         exit(1);
     }
 
