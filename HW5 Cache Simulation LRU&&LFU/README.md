@@ -71,4 +71,4 @@ For each iteration, you should open the file, run the simulation, print the resu
 
 Do not store the trace data in memory to speed up the next iteration
 
-Use gettimeofday() to get the total elapsed time
+Use `gettimeofday()` to get the total elapsed time
