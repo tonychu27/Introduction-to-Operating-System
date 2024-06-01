@@ -1,6 +1,6 @@
 > [!CAUTION]
 > Don't copy my work or you will be caught for plagiarism 🙅‍♂️⛔️
-# Introduction to Operating Sysyem
+# Introduction to Operating System
 2023 Fall NYCU 
 
 | Homework |               Name                  |        
