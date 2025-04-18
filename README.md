@@ -4,7 +4,7 @@
 2023 Fall NYCU 
 
 | Homework |               Name                  |        
-| :---     |                                 ---:|
+| :---     |                                 :---|
 | HW1      |  A Simple Shell                    | 
 | HW2      |  Multiprocess Matrix Multiplication |
 | HW3      |  Merge Sort (Thread Pool)           |
